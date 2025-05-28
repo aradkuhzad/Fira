@@ -1,4 +1,3 @@
-# FIRA
 # Welcome to FIRA🌱  Where Fire Meets Flavor♨️🔥
 Experience the soul of cooking in the heart of nature.🏕️
 At FIRA, we bring you the warmth of homemade meals cooked over fire, surrounded by rivers, mountains, and deep forests.🫖
