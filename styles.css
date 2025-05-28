@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background: #181818;
+}
+.main-header {
+    background: #38a44f;
+  padding: 28px 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 32px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  font-size: 28px;
+  color: #444;
+  margin-right: 16px;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+.nav-menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  transition: color 0.5s;
+}
+.nav-menu li a:hover {
+  color: #2e2e2e;
+}
+.subscribe-btn {
+  background: #ffffff;
+  color: #222;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 18px 32px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background 0.5s, color 0.2s;
+}
+.subscribe-btn:hover {
+  background: #2e2e2e;
+  color: #ffffff;
+}
