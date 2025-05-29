@@ -141,7 +141,7 @@ body, .nav-menu li a, .subscribe-btn {
 
 .join-btn {
   background: #2d6a4f;
-  color: #d7d7d7;
+  color: #F5E6D3;
   font-weight: 600;
   border: none;
   border-radius: 24px;
@@ -154,46 +154,86 @@ body, .nav-menu li a, .subscribe-btn {
 }
 
 .join-btn:hover {
-  background: rgba(46, 46, 46, 0.7);
-  color: #ffffff;
+  background: #F5E6D3;
+  color: #2d6a4f;
 }
 
-.text-test {
-  width: 100%;
-  color: #fff;
+
+
+.video-box {
+  position: relative;
+  width: 98%;
+  height: 200vh;
+  background-color: #f5e6d3;
+  border-radius: 30px;
+  top: 32px;
+  left: 50%;
+  transform: translateX(-50%);
   padding: 20px;
   box-sizing: border-box;
-  text-align: center;
-  margin-top: 1000px;
 }
 
-.text-test h1 {
-  font-size: 48px;
-  margin: 0;
+.cook-card {
+  background-color: #ffffff;
+  border-radius: 32px;
+  overflow: hidden;
+  width: 450px; /* Adjust width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.cook-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cook-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d6a4f;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: 'Mike Abbink', 'Bold Monday', Arial, sans-serif;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #1b4332;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Mike Abbink', 'Bold Monday', Arial, sans-serif;
 }
 
 
 
+.cook-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.reversed-box {
+  padding: 80px 0px;
+  background-color: #f5e6d3;
+  width: 98%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 100px; /* Adjust spacing as needed */
+  height: 100px; /* Example height, adjust as needed */
+}
 
 
 
