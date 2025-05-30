@@ -163,7 +163,7 @@ body, .nav-menu li a, .subscribe-btn {
 .video-box {
   position: relative;
   width: 98%;
-  height: 200vh;
+  height: auto;
   background-color: #f5e6d3;
   border-radius: 30px;
   top: 32px;
@@ -173,16 +173,32 @@ body, .nav-menu li a, .subscribe-btn {
   box-sizing: border-box;
 }
 
+.videos-heading {
+  color: #2d6a4f;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px;
+  font-family: 'Mike Abbink', 'Bold Monday', Arial, sans-serif;
+}
+
+.videos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+  justify-content: center;
+}
+
 .cook-card {
   background-color: #ffffff;
   border-radius: 32px;
   overflow: hidden;
-  width: 450px; /* Adjust width as needed */
+  width: 450px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  top: 20px;
-  left: 20px;
   transition: box-shadow 0.3s ease-in-out;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 .cook-card:hover {
@@ -235,5 +251,90 @@ body, .nav-menu li a, .subscribe-btn {
   height: 100px; /* Example height, adjust as needed */
 }
 
+.cook-card2 {
+  background-color: #ffffff;
+  border-radius: 32px;
+  overflow: hidden;
+  width: 450px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.cook-card2:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cook-card2 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content2 {
+  padding: 15px;
+}
+
+.card-content2 h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d6a4f;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: 'Mike Abbink', 'Bold Monday', Arial, sans-serif;
+}
+
+.card-content2 p {
+  font-size: 14px;
+  color: #1b4332;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Mike Abbink', 'Bold Monday', Arial, sans-serif;
+}
 
 
+
+.cook-card3 {
+  background-color: #ffffff;
+  border-radius: 32px;
+  overflow: hidden;
+  width: 450px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.cook-card3:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cook-card3 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content3 {
+  padding: 15px;
+}
+
+.card-content3 h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d6a4f;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: 'Mike Abbink', 'Bold Monday', Arial, sans-serif;
+}
+
+.card-content3 p {
+  font-size: 14px;
+  color: #1b4332;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Mike Abbink', 'Bold Monday', Arial, sans-serif;
+}
