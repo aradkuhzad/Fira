@@ -238,6 +238,18 @@ body, .nav-menu li a, .subscribe-btn {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+
+.card-link {
+  text-decoration: none !important;
+  color: inherit;
+  display: block;
+}
+
+
+
+
+
+
 .reversed-box {
   padding: 80px 0px;
   background-color: #f5e6d3;
