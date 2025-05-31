@@ -261,8 +261,63 @@ body, .nav-menu li a, .subscribe-btn {
   transform: translateX(-50%);
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  margin-top: 100px; /* Adjust spacing as needed */
-  height: 100px; /* Example height, adjust as needed */
+  margin-top: 100px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 0;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.footer-logo {
+  margin-top: 0;
+}
+
+.footer-logo img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.footer-divider {
+  width: 90%;
+  max-width: 800px;
+  border: 0;
+  height: 2px;
+  background-color: #2d6a4f;
+  margin: 5px 0;
+}
+
+.copyright {
+  color: #1b4332;
+  font-size: 14px;
+  gap: 5px;
+  margin-top: 15px;
+  font-family: 'Mike Abbink', 'Bold Monday', Arial, sans-serif;
 }
 
 .cook-card2 {
@@ -380,4 +435,16 @@ body, .nav-menu li a, .subscribe-btn {
   color: #1b4332; /* Darker green color */
   font-family: 'Mike Abbink', 'Bold Monday', Arial, sans-serif;
   display: block; /* Make it a block element */
+}
+
+.footer-links a {
+  color: #2d6a4f; /* Orange color from the image */
+  text-decoration: none; /* Remove underline */
+  font-family: 'Mike Abbink', 'Bold Monday', Arial, sans-serif;
+  transition: color 0.5s;
+}
+
+.footer-links a:hover {
+      color: #d4a373;
+      
 }
