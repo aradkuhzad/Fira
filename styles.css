@@ -448,3 +448,9 @@ body, .nav-menu li a, .subscribe-btn {
       color: #d4a373;
       
 }
+
+
+
+.nav-menu li a[href="#about"] {
+  scroll-behavior: smooth;
+}
