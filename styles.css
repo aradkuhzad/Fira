@@ -476,11 +476,23 @@ body, .nav-menu li a, .subscribe-btn {
     position: relative;
     right: 50px;
   }
-  
+
   .logo-text {
     position: relative;
     right: 40px;
   }
 
   
+}
+
+
+
+
+
+
+@media (min-width: 1680px) { /* wide desktop */
+  .nav-menu {
+    display: flex;
+  } 
+
 }
