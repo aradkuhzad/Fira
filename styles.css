@@ -454,3 +454,33 @@ body, .nav-menu li a, .subscribe-btn {
 .nav-menu li a[href="#about"] {
   scroll-behavior: smooth;
 }
+
+
+
+@media (min-width: 576px) { /* mobile wide */
+  .main-header {
+    padding: 5px 0px;
+    width: 98%;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .navbar-left {
+    position: relative;
+    right: 40px;
+  }
+
+  .icon {
+    position: relative;
+    right: 50px;
+  }
+  
+  .logo-text {
+    position: relative;
+    right: 40px;
+  }
+
+  
+}
